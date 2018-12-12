@@ -27,6 +27,6 @@ def try_calc(p, n, cm):
 
 if __name__ == '__main__':
 	r, m = try_calc(p, n, cm)
-	print("總額", p, "月繳", cm, "期數(月)", n)
+	print("總額", p, "月繳", cm, "期數(月)", n, "總繳款", cm*n)
 	print("年利率", round(r*12, 6), "月利率", round(r, 6), "理論月繳", round(m, 2))
 	print()
